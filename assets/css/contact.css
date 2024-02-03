@@ -1,0 +1,48 @@
+article#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 1.5rem;
+  gap: 3rem;
+}
+
+@media (max-width: 860px) {
+  article#contact {
+    gap: 0;
+  }
+}
+
+article#contact > div.left-content {
+  width: 100%;
+  max-width: 550px;
+}
+
+article#contact > div.left-content > img {
+  width: 100%;
+  border-radius: 0.25rem;
+  mix-blend-mode: multiply;
+}
+
+article#contact > div.right-content {
+  flex: 1;
+  max-width: max-content;
+}
+article#contact > div.right-content > h1 {
+  text-align: center;
+}
+article#contact > div.right-content > div.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+article#contact > div.right-content > div.container > a {
+  font-size: var(--text-size-56);
+  color: var(--text-color);
+}
+
+article#contact > div.right-content > div.container > a:hover {
+  text-shadow: 0 1px 5px var(--text-color);
+}
