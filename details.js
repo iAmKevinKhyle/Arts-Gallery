@@ -41,7 +41,7 @@ const links = [
 // #
 // #
 // #
-// DO NOT CHANGE ANYTING FROM BELOW HERE
+// DO NOT CHANGE ANYTING FROM BELOW HERE ---
 
 const NAME = document.querySelector(".figure-name");
 const DESC = document.querySelector(".figure-desc");
